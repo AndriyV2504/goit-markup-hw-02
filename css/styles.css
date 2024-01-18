@@ -10,10 +10,42 @@ a {
     text-decoration: none;
 }
 
+.header-logo {
+    color: #2E2F42;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo span {
+    color: #4D5AE5;
+}
+
 .header-menu-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.0175em;
+    line-height: 1.5;
+    letter-spacing: -0.0175em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:active {
+    color: #404BBF;
+}
+
+.effective {
+    background:  #2E2F42;
+}
+
+.effective-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: -0.02em;
+}
+
+.effective-btn {
 }
