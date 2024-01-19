@@ -10,6 +10,8 @@ a {
     text-decoration: none;
 }
 
+/*=========HEADER=========*/
+
 .header-logo {
     color: #2E2F42;
     font-size: 18px;
@@ -27,13 +29,16 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.0175em;
+    letter-spacing: -0.018em;
 }
 
 .header-menu-link:hover,
 .header-menu-link:active {
     color: #404BBF;
 }
+
+/*====================*/
+/*==========EFFECTIVE==========*/
 
 .effective {
     background:  #2E2F42;
@@ -48,4 +53,13 @@ a {
 }
 
 .effective-btn {
+    color:  #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
 }
+
+/*=====================*/
+/*==========BUSINESS===========*/
