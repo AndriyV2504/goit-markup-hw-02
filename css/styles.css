@@ -36,9 +36,13 @@ a {
 
 .header-menu-logo {
     color: #2E2F42;
+    font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .header-menu-logo span {
