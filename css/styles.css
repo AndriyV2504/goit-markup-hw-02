@@ -56,7 +56,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover
+.header-menu-link:focus {
     color: #404BBF;
 }
 
