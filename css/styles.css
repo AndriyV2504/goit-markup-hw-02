@@ -1,6 +1,5 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-family: "Raleway", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -192,9 +191,8 @@ a {
     text-transform: uppercase;
 }
 
-.footer-logos pan {
+.footer-logo span {
     color: #4D5AE5;
-    font-family: "Raleway", sans-serif
 }
 
 .footer-text {
