@@ -26,8 +26,6 @@
     overflow: hidden;
 }
 
-/*=========HEADER=========*/
-
 .header {
     border-bottom: 1px solid #E7E9FC;
     background-color: #FFF;
@@ -62,9 +60,6 @@
     font-style: normal;
 }
 
-/*====================*/
-/*==========EFFECTIVE==========*/
-
 .effective {
     background-color: #2E2F42;
 }
@@ -91,9 +86,6 @@
     cursor: pointer;
 }
 
-/*=====================*/
-/*==========BUSINESS===========*/
-
 .business {
     background-color: #FFF;
 }
@@ -112,9 +104,6 @@
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
-
-/*=======================*/
-/*===========TEAM============*/
 
 .Team {
     background-color: #F4F4FD;
@@ -148,9 +137,6 @@
     letter-spacing: 0.02em;
 }
 
-/*=========================*/
-/*============PORTFOLIO=============*/
-
 .portfolio {
     background-color: #FFF;
 }
@@ -169,9 +155,6 @@
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
-
-/*=========================*/
-/*============FOOTER=============*/
 
 .footer {
     background-color: #2E2F42;
@@ -197,5 +180,3 @@
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
-
-/*=========================*/
