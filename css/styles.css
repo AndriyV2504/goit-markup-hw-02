@@ -10,13 +10,31 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset 100%;
+    clip: rect 0 0 0 0;
+    overflow: hidden;
+}
+
 /*=========HEADER=========*/
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+    background-color: #FFF;
+}
 
 .header-logo {
     color: #2E2F42;
     font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: -0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -29,7 +47,7 @@ a {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.018em;
+    letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover,
@@ -41,7 +59,7 @@ a {
 /*==========EFFECTIVE==========*/
 
 .effective {
-    background:  #2E2F42;
+    background: #2E2F42;
 }
 
 .effective-title {
@@ -49,17 +67,122 @@ a {
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .effective-btn {
-    color:  #FFF;
+    color: #FFF;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
 }
 
 /*=====================*/
 /*==========BUSINESS===========*/
+
+.business {
+    background-color: #FFF;
+}
+
+.business-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.business-subtitle-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/*=======================*/
+/*===========TEAM============*/
+
+.Team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-subtitle {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-subtitle-text {
+    color: #434455;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/*=========================*/
+/*============PORTFOLIO=============*/
+
+.portfolio {
+    background-color: #FFF;
+}
+
+.portfolio-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-subtitle-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/*=========================*/
+/*============FOOTER=============*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/*=========================*/
