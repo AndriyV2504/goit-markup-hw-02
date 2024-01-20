@@ -131,10 +131,6 @@ a {
 
 /*==========TEAM==========*/
 
-.team {
-    background-color: #F4F4FD;
-}
-
 .team-title {
     color: #2E2F42;
     text-align: center;
@@ -143,10 +139,6 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.team-list {
-    background-color: #FFFFFF;
 }
 
 .team-subtitle {
