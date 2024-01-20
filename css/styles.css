@@ -36,12 +36,12 @@ a {
 
 .header-menu-logo {
     color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .logo-parts {
@@ -56,13 +56,25 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: #404BBF;
 }
 
 .header-address {
     font-style: normal;
+}
+
+.header-address-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404BBF;
 }
 
 /*====================*/
@@ -184,12 +196,12 @@ text-transform: uppercase;
 
 .footer-logo {
     color: #4D5AE5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-logo-parts {
