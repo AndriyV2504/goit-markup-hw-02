@@ -1,14 +1,14 @@
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-.ul {
+ul {
     list-style-type: none;
 }
 
-.a {
+a {
     text-decoration: none;
 }
 
@@ -170,6 +170,7 @@
 
 .footer-logos pan {
     color: #4D5AE5;
+    font-family: "Raleway", sans-serif
 }
 
 .footer-text {
