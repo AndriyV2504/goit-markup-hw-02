@@ -30,7 +30,7 @@ a {
     background-color: #FFF;
 }
 
-.header-logo {
+.header-menu-logo {
     color: #2E2F42;
     font-size: 18px;
     line-height: 1.17;
@@ -38,7 +38,7 @@ a {
     text-transform: uppercase;
 }
 
-.header-logo span {
+.header-menu-logo span {
     color: #4D5AE5;
 }
 
@@ -55,11 +55,15 @@ a {
     color: #404BBF;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 /*====================*/
 /*==========EFFECTIVE==========*/
 
 .effective {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .effective-title {
@@ -77,6 +81,10 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+effective-btn {
+    cursor: pointer;
 }
 
 /*=====================*/
