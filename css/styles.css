@@ -104,6 +104,11 @@ a {
     cursor: pointer;
 }
 
+.effective-btn:hover,
+.effective-btn:focus {
+    color: #404BBF;
+}
+
 /*====================*/
 
 /*==========BUSINESS==========*/
